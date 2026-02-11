@@ -23,7 +23,7 @@ phases:
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Updating Kubernetes deployment manifest...
-      - sed -i 's|image:.*|image':' '$REPOSITORY_URI':'$IMAGE_TAG'|g' Kubernetes/deployment.yml
+      - sed -i 's|image:.*|image':' '$REPOSITORY_URI':'$IMAGE_TAG'|g' Kubernetes/deployment.yaml
       - echo Writing image definitions file...
       - printf '[{"name":"brain-task-app","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
       - echo Build process completed successfully
