@@ -105,7 +105,7 @@ chmod +x script.sh
 
 You can view the complete deployment process and screenshots in the following document:
 
-> **[📄 View Detailed Deployment Docs]([https://docs.google.com/document/d/1XNmArDW61vSO9-JllvEgUAmOme0Nh3RT/edit?usp=drive_link&ouid=113314245151670066700&rtpof=true&sd=true](https://docs.google.com/document/d/1iyii6wPU6JB-XcDP6EVYXSka4oLIg97-/edit?usp=drive_link&ouid=113314245151670066700&rtpof=true&sd=true))**
+> **[📄 View Detailed Deployment Docs]([[https://docs.google.com/document/d/1XNmArDW61vSO9-JllvEgUAmOme0Nh3RT/edit?usp=drive_link&ouid=113314245151670066700&rtpof=true&sd=true](https://docs.google.com/document/d/1iyii6wPU6JB-XcDP6EVYXSka4oLIg97-/edit?usp=drive_link&ouid=113314245151670066700&rtpof=true&sd=true)](https://docs.google.com/document/d/1iyii6wPU6JB-XcDP6EVYXSka4oLIg97-/edit?usp=drive_link&ouid=113314245151670066700&rtpof=true&sd=true))**
 
 ---
 
