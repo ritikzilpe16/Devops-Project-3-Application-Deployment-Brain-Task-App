@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mybraintaskapp
+spec:
+  selector:
+    matchLabels:
+      app: mybraintaskapp
+  template:
+    metadata:
+      labels:
+        app: mybraintaskapp
+    spec:
+      containers:
+      - name: mybraintaskapp
+        image: 143063372153.dkr.ecr.us-east-2.amazonaws.com/braintask:latest
+        ports:
+        - containerPort: 3000
