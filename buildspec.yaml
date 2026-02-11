@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
-      - aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 143063372153.dkr.ecr.us-east-2.amazonaws.com/braintask:latest
+      - aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 143063372153.dkr.ecr.us-east-2.amazonaws.com
       - REPOSITORY_URI=143063372153.dkr.ecr.us-east-2.amazonaws.com/braintask
       - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
       - IMAGE_TAG=${COMMIT_HASH:=latest}
