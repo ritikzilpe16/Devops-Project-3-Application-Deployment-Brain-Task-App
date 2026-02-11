@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+
+files:
+  - source: Kubernetes
+    destination: /opt/Brain-Tasks-App/Kubernetes
+  - source: scripts
+    destination: /opt/Brain-Tasks-App/scripts
+
+hooks:
+  ApplicationStart:
+    - location: scripts/script.sh
+      timeout: 300
+      runas: root
