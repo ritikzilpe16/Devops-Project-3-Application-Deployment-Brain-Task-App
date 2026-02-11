@@ -99,12 +99,13 @@ To deploy to the EKS cluster manually:
 cd scripts
 chmod +x script.sh
 ./script.sh
+```
 
 ## 📄 Deployment Documentation
 
 You can view the complete deployment process and screenshots in the following document:
 
-[![Deployment Docs](https://img.shields.io/badge/View_Deployment_Docs-4285F4?style=for-the-badge&logo=google-docs&logoColor=white)](https://docs.google.com/document/d/1iyii6wPU6JB-XcDP6EVYXSka4oLIg97-/edit?usp=drive_link&ouid=113314245151670066700&rtpof=true&sd=true)
+[![Deployment Docs](https://img.shields.io/badge/View_Deployment_Docs-4285F4?style=for-the-badge&logo=google-docs&logoColor=white)](https://docs.google.com/document/d/1cl4m-OloBOGzjbBUQ6SStghXJEUfNU8bdbfXtKfaetM/edit?usp=sharing)
 
 ---
 
